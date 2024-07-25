@@ -2,7 +2,8 @@
 
 ## Introduction 
 
-Cyclistic is a fictional company for which I will perform a bike-share analysis. The director of maketing believes that the company's future success depends on maximizing the number of annual memberships by converting casual riders into members. Customers purchasing single-ride or full day passes are referred to as casual roders and those who purchase annual memberships are Cyclistic members.
+Cyclistic is a fictional bike-share company for which I will perform an analysis to determine how casual riders and members use the service differently. Customers purchasing single-ride or full day passes are referred to as casual riders and those who purchase annual memberships are Cyclistic members. The director of maketing believes that the company's future success depends on maximizing the number of annual memberships by converting casual riders into members. The analysis will help understand usage by these two groups in order to convert more casual riders into members. 
+
 ## Deliverables: 
 1. A clear statement of the business task
 2. A description of all data sources used
@@ -458,15 +459,28 @@ ORDER BY count DESC;
 Here we learn that the dock capacity and popularity of the stations do not correlate.
 
 ## Share
+![A histogram showing the ag range of 30-35 having the highest number of rides](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/age.png)
+![A packed bubble visualization showing similar rates of electric and classic bike usage by members but higher electric bike usage by casual riders](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/bike-types.png)
+![A symbol map showing the greatest density of riders in downtown Chicago north of i=highway 290](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/location.png)
+![A symbol map showing the overall Top 10 riding stations among members and casual riders](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/overall-top10.png)
+![A map showing the locations of the top 10 most popular starting stations of bikes for casual riders](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/start-casuals.png)
+![A map showing the locations of the top 10 most popular ending stations of bikes for casual riders](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/end-casuals.png)
+![A map showing the locations of the top 10 most popular starting stations of bikes for members](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/start-members.png)
+![A map showing the locations of the top 10 most popular ending stations of bikes for members](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/end-members.png)
+![A line graph showing that both the casual riders and members have a peak ride start time at 5pm with members having another smaller peak at 8am](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/start-time.png)
+![A line graph showing ride end times which have similar peaks as start times at 5pm for both casual riders and members and a smaller peak for members at 8am](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/end-time.png)
+![A pie chart showing the distribution of male and female riders with females making up 20.92% and males with 79.08%](https://github.com/shw-prog/Cyclistic-bike-share/blob/main/gender.png)
+
+
 
 ### Key Findings:
 - Most people use the bike share service to ride short distances, the most common ride duration being 4min.
 - On average, members ride shorter distances and casual riders use the bikes for longer. 
-- Casual riders are most likely to use the service on weekends whereas members tend to use in on weekdays, likely to commute to work or school. 
+- Casual riders are most likely to use the service on weekends whereas members tend to use in on weekdays. Members use them around 8am and 5pm and casual riders around 5pm, which likely means members use bikes to commute to work or school. 
 - Electric bikes seem to be most popular to both members and casual riders.
 - Members use the service more than casual riders, which makes sense as members probably use the service on a regular basis. However, we cannot tell by this data alone if it is just a select number of the same members who use the service more frequently. If I had more user based data, I could determine how often each individual user would use the service. 
 - Ellis Ave & 60th St is the most popular station for members and Streeter Dr & Grand Ave is the most popular for casual riders. It is possible the most popular station for casual riders falls in a tourist or recreational area and the popular member station may fall within a residential area.
-- The average age of people using the service is 44 and the most common age is 35. The average age for casual riders and members is similar regardless of age.
+- The average age of people using the service is 44 and the most common age is 35, which is similar for both casual riders and members.
 
 ## Act
 
