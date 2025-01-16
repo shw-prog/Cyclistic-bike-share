@@ -458,6 +458,21 @@ ORDER BY count DESC;
 Here we learn that the dock capacity and popularity of the stations do not correlate.
 
 ## Share
+![Bikes are most popular among age range 25 to
+40.](age.png)
+
+![Casual riders use more electric bikes than members](bike-types.png)
+![Top 10 end stations for casual riders](end-casuals.png)
+![Top 10 end stations for members](end-members.png)
+![The peak end ride times are similar to start times](end-time.png)
+![Males make up 79.08% of the total riders](gender.png)
+![Number of riders are signifacantly higher north of 390 highway](location.png)
+![Top 10 bike stations](overall-top10.png)
+![Top 10 start stations for casual riders](start-casuals.png)
+![Top 10 start stations for members](start-members.png)
+![The busiest ride time for members is 5pm](start-time.png)
+
+
 
 ### Key Findings:
 - Most people use the bike share service to ride short distances, the most common ride duration being 4min.
